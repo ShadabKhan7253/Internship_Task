@@ -945,9 +945,6 @@ app marcup (after 290px)
 
 ------------------------------ */
 @media (max-width: 290px) {
-  .art-app {
-    /* ----- info bar ----- */
-  }
   .art-app .art-info-bar {
     width: 100vw;
   }
@@ -958,9 +955,6 @@ app marcup (after 230px)
 
 ------------------------------ */
 @media (max-width: 230px) {
-  .art-app {
-    /* ----- menu bar ----- */
-  }
   .art-app .art-menu-bar {
     width: 100vw;
   }
@@ -1323,11 +1317,7 @@ info bar
 menu bar
 
 ------------------------------ */
-.art-menu-bar {
-  /* ----- main menu  ----- */
-  /* ----- language change  ----- */
-  /* ----- current page title ----- */
-}
+
 .art-menu-bar nav {
   display: -webkit-box;
   display: -ms-flexbox;

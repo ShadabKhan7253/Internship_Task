@@ -8,7 +8,6 @@ import Portfolio2Col from '../pages/Portofolio/Portfolio2Col';
 import BlogPost from '../pages/Blog/BlogPost';
 import Contact from '../pages/Contact/Contact';
 import History from '../pages/History/History';
-import { useFetch } from '../hooks/useFetch';
 
 const AppRoutes = ({ data }) => {
   const projects = data?.user.projects;

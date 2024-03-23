@@ -1,8 +1,8 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useRef } from 'react';
 import img1 from '../../img/bg.jpg';
 import Brand from '../../components/Brand';
 import Footer from '../../components/Layouts/Footer/Footer';
-import thumbnail from '../../img/works/thumbnail/1.jpg';
 import { Scrollbar } from 'smooth-scrollbar-react';
 import { Scrollbar as BaseScrollbar } from 'smooth-scrollbar/scrollbar';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
