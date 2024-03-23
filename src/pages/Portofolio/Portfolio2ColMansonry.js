@@ -5,10 +5,8 @@ import Footer from '../../components/Layouts/Footer/Footer';
 import { Scrollbar } from 'smooth-scrollbar-react';
 import { Scrollbar as BaseScrollbar } from 'smooth-scrollbar/scrollbar';
 import thumbnail from '../../img/works/thumbnail/1.jpg';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChevronRight, faExpand } from '@fortawesome/free-solid-svg-icons';
 
-const Portfolio2ColMansonry = () => {
+const Portfolio2ColMansonry = ({ projects }) => {
   const scrollbar = useRef(BaseScrollbar);
   return (
     <>
