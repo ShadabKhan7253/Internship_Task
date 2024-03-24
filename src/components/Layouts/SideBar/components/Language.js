@@ -1,5 +1,4 @@
 import React from 'react';
-import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
 
 const Language = () => {
   return (
